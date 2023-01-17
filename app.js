@@ -6,11 +6,11 @@ let userchoice
 
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener('click', (e) => {
   userChoiceDisplay = e.target.id
-  userChoiceDisplay.innerHTML = user-choice
+  userChoiceDisplay.innerHTML = userchoice
   generateComputerChoice()
 }))
 
 function generateComputerChoice() {
-   const randomNumber = Math.random() * possibleChoices.length
+   const randomNumber = Math.floor(random() * possibleChoices.length)
    console.log(randomNumber)
 }
