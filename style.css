@@ -9,3 +9,6 @@ body {
 h1 {font-weight: bold;
     text-decoration: underline;
 }
+html {
+  background-color: #7CB9E8;
+}
